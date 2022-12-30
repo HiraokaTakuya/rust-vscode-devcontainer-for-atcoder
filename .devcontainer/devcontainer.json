@@ -3,7 +3,9 @@
     "dockerComposeFile": ["../docker-compose.yml"],
     "service": "rust",
     "workspaceFolder": "/workspace",
-    "settings": {},
+    "settings": {
+        "editor.formatOnSave": true
+    },
     "extensions": [
         "rust-lang.rust-analyzer"
     ]
